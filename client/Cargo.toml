@@ -1,0 +1,10 @@
+[package]
+name = "client"
+version = "0.1.0"
+authors = ["James McMath <james@remind101.com>"]
+
+[dependencies]
+futures = "0.1.9"
+service = { path = "../service" }
+tarpc = { git = "https://github.com/google/tarpc", rev = "fafe569ebc4173096bbcf947be8f7c132d749958" }
+tokio-core = "0.1.4"
